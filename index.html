@@ -4,20 +4,12 @@
     <meta charset="UTF-8" />
     <title>P3 endringer</title>
     <link rel="stylesheet" type="text/css" href="p3changes.css" />
-    <link rel="icon" type="image/png" href="../bilder/rocket.png" />
+    <link rel="icon" type="image/png" href="rocket.png" />
   </head>
 
   <body>
     <br /><br />
     <main>
-      <img
-        src="bilder/moon.png"
-        id="moon"
-        alt="Månen"
-        width="800"
-        height="800"
-      />
-
       <h1 class="header">P3 endringer av Månepartiet</h1>
 
       <div class="avsnitt">
@@ -31,170 +23,144 @@
 
       <div class="avsnitt">
         <h2>Endringer</h2>
+        <p><b>Generell struktur</b></p>
+        <p>
+          Siden vår endte opp med samme oppbyggning som alle de andre norske
+          partiene slik vi ønsket.
+        </p>
         <p><b>Homepage</b></p>
         <p>
-          En stor endring fra planleggingen av denne siden 
-          er at vi ikke har et bildegalleri av politikerne 
-          med quotes fra hver av de, men heller et bildegalleri av romfart og debatter.
-          Dette er fordi vi skal ha bilder av politikerne av partiet under partiet.html.
+          En stor endring fra planleggingen av denne siden er at vi ikke har et
+          bildegalleri av politikerne med quotes fra hver av de, men heller et
+          bildegalleri av romfart og debatter. Dette er fordi vi skal ha bilder
+          av politikerne av partiet under partiet.html.
         </p>
         <p><b>Partiet</b></p>
         <p>
-          Denne siden ble stort sett slik som planlagt, men vi valgte å ha mer luft mellom seksjonene på nettsiden da dette så mer oversiktlig ut.
+          Denne siden ble stort sett slik som planlagt, men vi valgte å ha mer
+          luft mellom seksjonene på nettsiden da dette så mer oversiktlig ut.
         </p>
-        <p><b>Partiet</b></p>
+        <p><b>Politikk</b></p>
         <p>
-          Denne siden ble stort sett slik som planlagt, men vi valgte å ha mer luft mellom seksjonene på nettsiden da dette så mer oversiktlig ut.
+          Lite er endret på politikk.html. Det er lagt til noen ekstra
+          funksjonen i css som at text boksene blir større ved hovring og
+          visjonen endrer farge. Dette var mest for å vise at vi får til disse
+          effektene.
+        </p>
+        <p><b>Navbar</b></p>
+        <p>
+          Navbaren ble endret ved at i stedet for å endre farge ved hovring ble
+          det animert en underlinje. Dette var rett å slett fordi det var noe
+          mere krevende og så kuler ut. Her kunne vi valgt å bruke endring av
+          skrivtfargefunksjonen da vi også lagde dette i teksten for visjonen
+          vår på politikk.html. Jeg ser også at vi skrev at gi gave skylle
+          floate til høgre, men grunnet at vi brukte flexgrid. Dette fordi vi
+          ikke viste om det var lov å bruke flexgrid da p2 var skrevet
+        </p>
+        <p><b>Logo</b></p>
+        <p>
+          Logoen ble som vi tenkte, men animasjonen ble gjort ved css transform
+          og vi endte opp med å ikke animere en rakett siden vi alerede hadde
+          dette på romfart siden.
+        </p>
+        <p><b>Opptimalisering</b></p>
+        <p>
+          Siden vi brukte grids ordnet vi det slik at grid elementene la seg
+          oppå hverandre om skjermen ble for liten. Bildene våre er scalet ned
+          og gort raske å laste inn. navbaren spiller ikke en animasjon i
+          mobilversjon og giffene våre står stille i mobil verson. Det eneste
+          som er endret er at giffen også spiller i mobilversjon, da det var
+          veldig kjedlig med et bilde.
         </p>
       </div>
 
       <div class="avsnitt">
         <h2>Oppdatert mappestruktur</h2>
         <p>
-          Mappestrukturen endret vi litt fordi vi la til en video. Derfor
-          lagde vi en "vid" folder. I tilleg måtte vi endre navnet på hjem.html
-          til index.html for at siden skulle fungere riktig på ntnu sine
-          servere. Til slutt la vi all HTML-filene i en en egen mappe slik at
-          strukturen ble mer oversiktig. Dette var litt utfordrene å linke til 
-          de forskjellige sidene fra navbaren da relativ
-          filplassering ikke lengere fungerte. Vi kom rundt dette relativt
-          elegant, ved å se på navnet til html filene. Ettersom at NTNU sine
-          servere ikke var helt samarbeidsvillige med å gi oss navnet på HTML-filene, 
-          måtte vi endre til å bruke et anker på hjem siden, som ikke
-          ble like fint, men som også fungerer.
+          Mappestrukturen endret vi litt fordi vi la til en video. Derfor lagde
+          vi en "vid" folder. I tilleg måtte vi endre navnet på hjem.html til
+          index.html for at siden skulle fungere riktig på ntnu sine servere.
+          Til slutt la vi all HTML-filene i en en egen mappe slik at strukturen
+          ble mer oversiktig. Dette var litt utfordrene å linke til de
+          forskjellige sidene fra navbaren da relativ filplassering ikke lengere
+          fungerte. Vi kom rundt dette relativt elegant, ved å se på navnet til
+          html filene. Ettersom at NTNU sine servere ikke var helt
+          samarbeidsvillige med å gi oss navnet på HTML-filene, måtte vi endre
+          til å bruke et anker på hjem siden, som ikke ble like fint, men som
+          også fungerer.
         </p>
 
         <ul>
           <li>
             css/
             <ul>
-              <li>
-                style.css
-              </li>
+              <li>style.css</li>
             </ul>
           </li>
           <li>
             img/
             <ul>
-              <li>
-                alex.jpg
-              </li>
-              <li>
-                brage.jpg
-              </li>
-              <li>
-                gerhard.jpg
-              </li>
-              <li>
-                logo.jpg
-              </li>
-              <li>
-                maanesengif.gif
-              </li>
-              <li>
-                maanesengif2.gif
-              </li>
-              <li>
-                mathias.jpg
-              </li>
-              <li>
-                mp.jpg
-              </li>
-              <li>
-                rocket.jpg
-              </li>
-              <li>
-                slideshow1.jpg
-              </li>
-              <li>
-                slideshow3.jpg
-              </li>
-              <li>
-                slideshow4.jpg
-              </li>
-              <li>
-                slideshow5.jpg
-              </li>
-              <li>
-                slideshow6.jpg
-              </li>
-              <li>
-                steffen.jpg
-              </li>
-              <li>
-                steffi.jpg
-              </li>
-              <li>
-                test.jpeg
-              </li>
+              <li>alex.jpg</li>
+              <li>brage.jpg</li>
+              <li>gerhard.jpg</li>
+              <li>logo.jpg</li>
+              <li>maanesengif.gif</li>
+              <li>maanesengif2.gif</li>
+              <li>mathias.jpg</li>
+              <li>mp.jpg</li>
+              <li>rocket.jpg</li>
+              <li>slideshow1.jpg</li>
+              <li>slideshow3.jpg</li>
+              <li>slideshow4.jpg</li>
+              <li>slideshow5.jpg</li>
+              <li>slideshow6.jpg</li>
+              <li>steffen.jpg</li>
+              <li>steffi.jpg</li>
+              <li>test.jpeg</li>
             </ul>
           </li>
           <li>
             js/
             <ul>
-              <li>
-                bildegalleri.js
-              </li>
-              <li>
-                gave.js
-              </li>
-              <li>
-                medlem.js
-              </li>
-              <li>
-                navfot.js
-              </li>
-              <li>
-                rakett.js
-              </li>
-              <li>
-                sok.js
-              </li>
+              <li>bildegalleri.js</li>
+              <li>gave.js</li>
+              <li>medlem.js</li>
+              <li>navfot.js</li>
+              <li>rakett.js</li>
+              <li>sok.js</li>
             </ul>
           </li>
           <li>
             pages/
             <ul>
-              <li>
-                gave.html
-              </li>
-              <li>
-                medlem.html
-              </li>
-                <li>
-                  partiet.html
-                </li>
-                <li>
-                  politikk.html
-                </li>
-                <li>
-                  romfart.html
-                </li>
+              <li>gave.html</li>
+              <li>medlem.html</li>
+              <li>partiet.html</li>
+              <li>politikk.html</li>
+              <li>romfart.html</li>
             </ul>
           </li>
           <li>
             vid/
             <ul>
-              <li>
-                romfart123.mp4
-              </li>
-              <li>
-                romfart123.ogg
-              </li>
-              <li>
-                romfart123.webm
-              </li>
+              <li>romfart123.mp4</li>
+              <li>romfart123.ogg</li>
+              <li>romfart123.webm</li>
             </ul>
           </li>
-          <li>
-            index.html
-          </li>
+          <li>index.html</li>
         </ul>
-
       </div>
 
       <div class="avsnitt">
         <h2>Arbeidsfordeling</h2>
+        <p>
+          Det ble noen forandringer i arbeidstrukturen. Dette var grunnet at
+          noen av elementene ligner mere og det var dermed mere effektivt å ha
+          en persjon som arbeidet på dem. Ellers tokk noen oppgaver noe mere tid
+          en forventet og andre mindre.
+        </p>
+        <h2>Hvordan arbeidsfordelingen ble:</h2>
         <table>
           <tr>
             <th>Filnavn</th>
@@ -211,7 +177,7 @@
               slideshowen skal vi ha en rask forklaring av partiets begrunnelse
               for å satse på romfart.
             </td>
-            <td>Gerhard</td>
+            <td>Steffen</td>
           </tr>
           <tr>
             <td>politikk.html</td>
@@ -284,7 +250,7 @@
           <tr>
             <td>style.css</td>
             <td>CSS filen med all styling for hele nettsida.</td>
-            <td>Alle</td>
+            <td>Alle lager css for sinde objekter</td>
           </tr>
           <tr>
             <td>bildegalleri.js</td>
@@ -297,8 +263,20 @@
             <td>Brage</td>
           </tr>
           <tr>
-            <td>script.js</td>
-            <td>Javascripten som kontrollerer de andre delene av nettsida.</td>
+            <td>navfot.js</td>
+            <td>Javascripten som genererer navbaren.</td>
+            <td>Gerhard</td>
+          </tr>
+          <tr>
+            <td>rakett.js</td>
+            <td>
+              Javascripten som får romskipet på romfart.html til å fungere
+            </td>
+            <td>Gerhard</td>
+          </tr>
+          <tr>
+            <td>sok.js</td>
+            <td>Søkefunksjonen til politikk.html</td>
             <td>Gerhard</td>
           </tr>
           <tr>
@@ -332,9 +310,9 @@
             <td>Alle</td>
           </tr>
           <tr>
-            <td>forside.jpg</td>
-            <td>Et bilde som skal være på forsiden, altså hjem.html</td>
-            <td>Alle</td>
+            <td>slideshow bilder</td>
+            <td>Bildene til bildekarusellen på forsiden</td>
+            <td>Steffen</td>
           </tr>
           <tr>
             <td>Sikkerhetssjekk</td>
