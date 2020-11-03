@@ -17,4 +17,55 @@ table {
     position: absolute;
     z-index: -1;
   }
+
+  .avsnitt {
+    width: 100%;
+    margin: auto;
+    border: 3px double var(--text);
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
   
+  :root {
+    --backround: rgb(40, 40, 40);
+    --text: white;
+    --accent: rgb(255, 136, 0);
+  }
+  body {
+    background-color: var(--backround);
+    color: var(--text);
+    font-family: "D-DIN-Regular", Arial, Verdana, sans-serif, Verdana,
+      "Courier New", Courier, monospace;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  main {
+    width: 70%;
+    margin: auto;
+  }
+  section {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.1em;
+  }
+  h2 {
+    font-size: 1.5em;
+    margin: 0.1em;
+  }
+  h3 {
+    font-size: 1em;
+    margin: 0.1em;
+  }
+  p {
+    font-size: 1em;
+    margin: 0.3em;
+  }
+  a {
+    text-decoration: none;
+    color: var(--text);
+  }
